@@ -1,0 +1,23 @@
+#headerBlock {
+  width: 100%;
+  height: 70px;
+  background: white;
+}
+
+#headerBlock article {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  height: 70px;
+  align-items: center;
+}
+#headerBlock article .logoBlock {
+  flex-basis: 25%;
+}
+
+.logoBlock a {
+  background: url("../../assets/ppcom-white.svg");
+}
+#headerBlock article .memuBlock {
+  flex-basis: 25%;
+}
